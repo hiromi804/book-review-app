@@ -1,0 +1,45 @@
+.content {
+  margin: 50px;
+  list-style: none;
+}
+
+.content__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  > label {
+    font-size: 20px;
+  }
+}
+
+.content__url,
+.content__review {
+  margin-bottom: 40px;
+  > label {
+    font-size: 20px;
+  }
+}
+
+.content__header,
+.content__reviewer,
+.content__review-detail {
+  margin-bottom: 50px;
+  > label {
+    font-size: 20px;
+  }
+}
+
+.content__border {
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 50%;
+}
+.btnWrap {
+  display: flex;
+}
+
+textarea {
+  width: 50%;
+}

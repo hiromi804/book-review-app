@@ -1,0 +1,17 @@
+.content__row {
+  margin-bottom: 20px;
+  display: flex;
+  > label {
+    width: 80px;
+  }
+}
+
+.content__input {
+  width: 50%;
+}
+
+.registButton {
+  width: 300px;
+  display: block;
+  margin-inline: auto;
+}

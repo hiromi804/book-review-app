@@ -1,0 +1,36 @@
+.Pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button.Pagination-Item-btn {
+  width: auto;
+  height: auto;
+  background: black;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  transition: all 0.15s linear;
+  text-decoration: none;
+}
+
+.Pagination-Item-btn:disabled {
+  pointer-events: none;
+  opacity: 0.3;
+  cursor: default;
+}
+.Pagination-Item-Link-Icon {
+  width: 20px;
+}
+.Pagination-Item-Link.isActive {
+  background: #111;
+  color: #fff;
+  pointer-events: none;
+}
+.Pagination-Item-Link:not(.isActive):hover {
+  background: #111;
+  color: #fff;
+}
+.Pagination > * + * {
+  margin-left: 12px;
+}

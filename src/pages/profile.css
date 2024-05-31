@@ -1,0 +1,11 @@
+.userName {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: 200px;
+}
+
+.updateButton {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
